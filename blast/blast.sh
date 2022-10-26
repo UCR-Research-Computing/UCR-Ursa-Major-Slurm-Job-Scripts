@@ -3,20 +3,19 @@
 #SBATCH -c 4 
 #SBATCH -p compute 
 
-
+#create random
 project="blast"
 ran=$(echo $RANDOM)
+dirname=$project"_"$ran
 
-filename=$project"_"$ran
-
-echo $filename
-
-scratchdir=$HOME/$filename
-
+#make scratch directory
+scratchdir=$HOME/$dirname
 mkdir -p $scratchdir
 
+#copy input files to scratch directory
 cp ./cluster-data/* $scratchdir/.
 
+#load the blast environment module
 module load blast-2.13
 
 cd $scratchdir
