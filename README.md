@@ -1,5 +1,5 @@
-# hpcc_slurm_examples
-This is a collection of Slurm examples that can be used on the HPC Cluster at the University of California, Riverside.
+# hpc_slurm_examples
+This is a collection of Slurm submission script examples that can be used on the HPC Clusters at the University of California, Riverside.
 
 ## Credit
 Some examples borrowed from:
