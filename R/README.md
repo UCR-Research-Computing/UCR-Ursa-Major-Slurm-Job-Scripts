@@ -14,9 +14,9 @@ cd ~/R_example
 2. Download example scripts
 
 ```bash
-wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/job_wrapper.sh
-wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/myRscript.R
-wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/jags.R
+wget https://raw.githubusercontent.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/master/R/myRscript.R
+wget https://raw.githubusercontent.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/master/R/jags.R
+wget https://raw.githubusercontent.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/master/R/job_wrapper.sh
 ```
 
 3. Submit wrapper
