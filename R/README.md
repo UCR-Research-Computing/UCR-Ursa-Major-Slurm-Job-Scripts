@@ -16,6 +16,7 @@ cd ~/R_example
 ```bash
 wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/job_wrapper.sh
 wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/myRscript.R
+wget https://github.com/UCR-Research-Computing/UCR-Ursa-Major-Slurm-Job-Scripts/blob/master/R/jags.R
 ```
 
 3. Submit wrapper
